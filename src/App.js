@@ -20,7 +20,6 @@ function App() {
     }
     getAllBreweries()
   }, [])
-  console.log('breweries', breweries)
   return (
     <Router>
       <NavBar text={text} setText={setText} />
