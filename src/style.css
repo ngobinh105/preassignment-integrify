@@ -28,7 +28,6 @@
 }
 
 .card-detail {
-  margin-left: 20rem;
-  margin-right: 20rem;
-  justify-content: center;
+  margin: auto;
+  max-width: 40rem;
 }

@@ -27,7 +27,12 @@ function App() {
         <Route
           exact
           path='/:id'
-          element={<BreweryDetail breweries={breweries}></BreweryDetail>}
+          element={
+            <BreweryDetail
+              breweries={breweries}
+              setBreweries={setBreweries}
+            ></BreweryDetail>
+          }
         ></Route>
         <Route
           exact
